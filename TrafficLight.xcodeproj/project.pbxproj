@@ -13,6 +13,7 @@
 		A7001D9F285B919100F8C181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7001D9D285B919100F8C181 /* Main.storyboard */; };
 		A7001DA1285B919300F8C181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7001DA0285B919300F8C181 /* Assets.xcassets */; };
 		A7001DA4285B919300F8C181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7001DA2285B919300F8C181 /* LaunchScreen.storyboard */; };
+		A7AABDF4285CEFE10083A471 /* CurrentLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AABDF3285CEFE10083A471 /* CurrentLight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A7001DA0285B919300F8C181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7001DA3285B919300F8C181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7001DA5285B919300F8C181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AABDF3285CEFE10083A471 /* CurrentLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A7001D96285B919100F8C181 /* TrafficLight */ = {
 			isa = PBXGroup;
 			children = (
+				A7AABDF3285CEFE10083A471 /* CurrentLight.swift */,
 				A7001D97285B919100F8C181 /* AppDelegate.swift */,
 				A7001D99285B919100F8C181 /* SceneDelegate.swift */,
 				A7001D9B285B919100F8C181 /* ViewController.swift */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AABDF4285CEFE10083A471 /* CurrentLight.swift in Sources */,
 				A7001D9C285B919100F8C181 /* ViewController.swift in Sources */,
 				A7001D98285B919100F8C181 /* AppDelegate.swift in Sources */,
 				A7001D9A285B919100F8C181 /* SceneDelegate.swift in Sources */,
@@ -301,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.gaida.TrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -329,7 +333,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.gaida.TrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
