@@ -23,19 +23,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        redLable.layer.cornerRadius = 50
-        yellowLable.layer.cornerRadius = 50
-        greenLable.layer.cornerRadius = 50
         startButton.layer.cornerRadius = 10
         
         redLable.alpha = lightOff
         yellowLable.alpha = lightOff
         greenLable.alpha = lightOff
         
-        
-        
     }
-
+    
+   override func viewWillLayoutSubviews() {
+       redLable.layer.cornerRadius = redLable.frame.width / 2
+       yellowLable.layer.cornerRadius = yellowLable.frame.width / 2
+       greenLable.layer.cornerRadius = greenLable.frame.width / 2
+   }
+   
+    
     @IBAction func startButtonTapped() {
         startButton.setTitle(redLable.isHidden ? "START" : "NEXT", for: .normal)
         
